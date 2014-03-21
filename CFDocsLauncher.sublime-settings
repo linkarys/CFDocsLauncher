@@ -1,12 +1,20 @@
 {
 	/**
-	 * https://wikidocs.adobe.com/wiki/display/coldfusionen/
-	 * http://cfquickdocs.com/
-	 * http://cfdocs.org/
+	 * The site where you want to load doc for specific tag/function
 	 *
-	 * @type {[type]}
+	 * You may want to use the fowllowing source
+	 *   https://wikidocs.adobe.com/wiki/display/coldfusionen/
+	 *   http://cfquickdocs.com/
+	 *   http://cfdocs.org/
 	 */
 	"doc_chanel":"https://wikidocs.adobe.com/wiki/display/coldfusionen/",
-	// "search_chanel":"https://wikidocs.adobe.com/wiki/dosearchsite.action?where=coldfusionen&search-filter-button=Filter&queryString="
+
+	/**
+	 * The site where you want to perform an search operation for specific tag/function
+	 *
+	 * You may want to use the fowllowing source
+	 *   https://wikidocs.adobe.com/wiki/dosearchsite.action?where=coldfusionen&search-filter-button=Filter&queryString=
+	 *   http://cfquickdocs.com/#
+	 */
 	"search_chanel":"http://cfquickdocs.com/#"
 }

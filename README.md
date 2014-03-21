@@ -1,24 +1,20 @@
-Coldfusion Docs Launcher
+ColdFusion Docs Launcher
 =======================
 
-Provides a command for launching a coldfusion 10 quick doc search for the word at the cursor
+Provides a command for launching a ColdFusion quick doc search for the word at the cursor
 
-Fork from [SublimeText2CfQuickDocsLauncher] (<https://github.com/DominicWatson/SublimeText2CfQuickDocsLauncher>)
+Fork from [SublimeText2CfQuickDocsLauncher](<https://github.com/DominicWatson/SublimeText2CfQuickDocsLauncher>)
 
-Settings
---------
+##Installing
 
-You can get to the settings through Preferences->Package Settings->CF Docs Launcher. Options are:
+You install it via Package Control or install manually as follow:
 
-* **search_url**: The site url you want to search, it could be https://wikidocs.adobe.com/wiki/display/coldfusionen/, http://cfquickdocs.com/, http://cfdocs.org/ or any other source if you like
-
-Commands
---------
-
-* **launch_cf_help**: default key binding, shift-alt-h
-
-Installation
-------------
 - cd {user sublime folder}/Packages
 - git clone https://github.com/linkarys/CFDocsLauncher
 - Enjoy it!
+
+## Usage
+
+* Place the cursor around or select the tag/function to be searched/loaded
+* Use shift + alt + h to load the doc page for specific tag/function directly
+* Use shift + alt + i to perform an search operation against specific word
