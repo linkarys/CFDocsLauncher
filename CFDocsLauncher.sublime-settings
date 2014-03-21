@@ -1,4 +1,12 @@
 {
+	/**
+	 * https://wikidocs.adobe.com/wiki/display/coldfusionen/
+	 * http://cfquickdocs.com/
+	 * http://cfdocs.org/
+	 *
+	 * @type {[type]}
+	 */
 	"doc_chanel":"https://wikidocs.adobe.com/wiki/display/coldfusionen/",
-	"search_chanel":"https://wikidocs.adobe.com/wiki/dosearchsite.action?where=coldfusionen&search-filter-button=Filter&queryString="
+	// "search_chanel":"https://wikidocs.adobe.com/wiki/dosearchsite.action?where=coldfusionen&search-filter-button=Filter&queryString="
+	"search_chanel":"http://cfquickdocs.com/#"
 }
