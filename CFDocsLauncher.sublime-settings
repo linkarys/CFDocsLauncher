@@ -1,17 +1,57 @@
 {
+	// The following source will be used when plug-in could not find a specific source base on current environment
 	"default": "https://www.google.com/search?q=",
 	"python": {
 		"doc_url": "http://docs.python.org/3.4/library/",
 		"search_url": "http://docs.python.org/3.4/search.html?check_keywords=yes&area=default&q=",
 	},
+
+	/**
+	 * Use of quick launch and quick search
+	 *
+	 * doc_url is use for quick launch
+	 * search_url is use for quick search
+	 * ---------------------------------------------------------------------------
+	 */
+
 	"cfscript": {
+		/**
+		 * The site where you want to load doc for specific tag/function
+		 *
+		 * You may want to use the fowllowing source
+		 *   https://wikidocs.adobe.com/wiki/display/coldfusionen/
+		 *   http://cfquickdocs.com/
+		 *   http://cfdocs.org/
+		 */
 		"doc_url": "https://wikidocs.adobe.com/wiki/display/coldfusionen/",
+		/**
+		 * The site where you want to perform an search operation for specific tag/function
+		 *
+		 * You may want to use the fowllowing source
+		 *   https://wikidocs.adobe.com/wiki/dosearchsite.action?where=coldfusionen&search-filter-button=Filter&queryString=
+		 *   http://cfquickdocs.com/#
+		 */
 		"search_url": "https://wikidocs.adobe.com/wiki/dosearchsite.action?where=coldfusionen&search-filter-button=Filter&queryString="
 	},
 	"php": {
 		"doc_url": "",
 		"search_url": "http://cn2.php.net/manual-lookup.php?scope=quickref&pattern="
 	},
+
+	/**
+	 * Use for quick panel search
+	 *
+	 * You should defined the source pattern following the following format:
+	 *  "prefix": {
+	 *  	"pattern": "http://xxxxx/${keyname:defaultValue}/xxxx?q="
+	 *  }
+	 *
+	 *  The when you type in the input panel (ctrl + shift + ; by default) with
+	 *  	prefix keyname:val querystring
+	 *  It will launch a search at http://xxxxx/var/xxxx?q=querystring
+	 *  ---------------------------------------------------------------------------
+	 */
+
 	"search_patterns": {
 		"g": {
 			"pattern": "https://www.google.com/search?hl=${l:en}&q="

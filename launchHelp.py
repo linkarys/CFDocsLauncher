@@ -54,7 +54,7 @@ class fn:
             return s_pattern + ' '.join(keyword)
 
         except:
-            return settings.get('default', 'https://www.google.com/search?q=')
+            return settings.get('default', 'https://www.google.com/search?q=') + input
 
 def get_syntax(view):
     scope = view.scope_name(view.sel()[0].end())
