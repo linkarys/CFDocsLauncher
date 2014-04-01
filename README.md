@@ -8,8 +8,6 @@ Provides a command for launching a coldfusion 10 quick doc search for the word a
 
 Fork from [SublimeText2CfQuickDocsLauncher] (<https://github.com/DominicWatson/SublimeText2CfQuickDocsLauncher>)
 
-### Please move to [QuickDocsLauncher] (https://github.com/linkarys/QuickDocsLauncher), This one is combined to [QuickDocsLauncher] (https://github.com/linkarys/QuickDocsLauncher) and is no more under dev.
-
 ## Installation
 
 - cd {user sublime folder}/Packages
